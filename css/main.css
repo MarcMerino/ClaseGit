@@ -1,0 +1,48 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    background-color: #121212;
+    color: gainsboro;
+    border-left: 3px solid red;
+    padding: 1rem;
+
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+
+    transition: all 150ms;
+}
+
+div.container:hover {
+    background-color: #363636;
+}
+
+.contador {
+    background-color: #484848;
+    font-family: monospace;
+    color: gainsboro;
+    padding: .5rem;
+    border: none;
+}
+
+
+.mt-0 {
+    margin-top: 0rem;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
